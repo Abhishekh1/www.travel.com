@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+body{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.sidebar{
+    position: fixed;
+    background:rgb(39, 33, 33);
+    width: 200px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+}
+
+.navbar-brand{
+    display: block;
+   background-color: antiquewhite;
+    padding-left: 60px;
+    padding-top: 5px;
+  
+}
+.sidebar ul li{
+    margin: 25px 0;
+
+}
+.sidebar ul li a{
+    color: rgb(255, 255, 255);
+    padding-left: 60px;
+
+}
+.sidebar ul li a:hover{
+    color: rgb(247, 224, 194);
+    margin-left: 20px;
+    transition: 0.4s;
+
+}
+.main{
+    background-color: antiquewhite;
+    height: 50px;
+}
+
+.search {
+    width: 1100px;
+    display: flex;
+    padding-left: 200px ;
+
+   height: 10%;
+
+  }
+  
+  .searchTerm {
+ 
+    margin-top: 10px;
+    margin-left:200px ;
+    text-align: center;
+    width: 1100px;
+    border: 3px solid #f0fdff;
+    padding: 5px;
+    height: 20px;
+    border-radius: 50px ;
+    color: #9DBFAF;
+  }
+  .row{
+    width:50%;
+    padding-left: 10px;
+  }
+  .log-name{
+    padding-top: 15px;
+    padding-left: 10px;
+  
+    text-decoration: underline;
+    color: #9DBFAF;;
+    font-family: 'Mukta', sans-serif;
+    
+  }
+ .sideimg{
+    padding-top: 5px;
+    padding-left: 30px;
+    float: right;
+    margin-right: 0;
+}
+
+.main-con{
+    margin-left: 200px;
+    padding: 0px;
+}
+.heading-right{
+    float: right;
+    text-align: center;
+}
+.des-left{
+    text-align: center;
+    height: 500px;
+}
+.des-main{
+    background-color: rgb(237, 243, 243);
+    height: 1000px;
+}
+/* .center{
+    background-color: aquamarine;
+    width: 100%;
+    height: 100%;
+} */
+.left {
+    border: 1px solid rgb(255, 247, 247);
+    border-radius: 2px;
+    margin-left: 80px;
+    width: 50%;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 200px;
+    background-color: #f4fcfd;
+    float: left;
+  }
+
+.right{
+    margin-left: 60%;
+    margin-top: 5%;
+    margin-right: 80px;
+    background-color: #f4fcfd;
+    padding-bottom: 100px;
+     
+}
+.right-heading{
+    width: 80%;  
+    height: 50px;
+    float: left; 
+    background: rgb(255, 255, 255);
+    padding-left: 40px;
+    padding-top: 20px;
+    color: #8b8787;
+    font-family: "Times New Roman"
+}
+.left-heading{
+    margin-left: 50%; 
+    background: #ff4d4d;
+    height: 65px;
+    text-align: center;
+    padding-top: 5px;
+    color: #d6d4d4;
+    font-family: "Times New Roman";
+
+}
